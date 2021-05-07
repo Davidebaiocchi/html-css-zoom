@@ -7,17 +7,22 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
 i {
     color: white;
+    font-size: 18px;
 }
+
+
 
 /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
 header {
     display: flex;
     justify-content: flex-end;
     padding-top: 5px;
+    margin-bottom: 20px;
 }
 
 header div {
@@ -26,4 +31,52 @@ header div {
     padding: 2px 5px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+
+
+/*  MAIN MAIN MAIN MAIN MAIN MAIN MAIN  MAIN MAIN MAIN MAIN MAIN */
+main {
+    width: 100%;
+    padding: 0 10px;
+    overflow-y: scroll;
+    height: 82vh;
+}
+
+main .row {
+    display: flex;
+}
+
+.photo-card {
+    width: calc(100% / 6);
+    padding: 0 3px;
+    position: relative;
+}
+
+main img {
+    width: 100%
+}
+
+main i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 3px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.363)
+}
+
+.row5 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+footer {
+    background-color: rgb(49, 49, 49);
+    height: 101px;
+    margin-top: 20px
 }
