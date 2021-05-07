@@ -8,6 +8,7 @@
 body {
     background-color: black;
     color: white;
+    overflow-y:hidden;
 }
 
 i {
@@ -22,7 +23,7 @@ header {
     display: flex;
     justify-content: flex-end;
     padding-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 header div {
@@ -40,7 +41,7 @@ main {
     width: 100%;
     padding: 0 10px;
     overflow-y: scroll;
-    height: 82vh;
+    height: 79vh;
 }
 
 main .row {
@@ -77,6 +78,38 @@ main i {
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 footer {
     background-color: rgb(49, 49, 49);
-    height: 101px;
-    margin-top: 20px
+    height: 90px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 100%;text-align: center;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;    
+    padding: 20px 0;
+}
+
+footer i {
+    font-size: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.button3 {
+    padding-right: 30px;
+    cursor: pointer;
+    background-color: rgb(87, 87, 87);
+    color: red;
+    height: 90px;
+    position: relative;
+    bottom: 20px;
 }
