@@ -42,10 +42,8 @@ main {
     padding: 0 10px;
     overflow-y: scroll;
     height: 79vh;
-}
-
-main .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .photo-card {
@@ -73,6 +71,9 @@ main i {
     justify-content: center;
 }
 
+.pl {
+    margin-left: 150px;
+}
 
 
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
