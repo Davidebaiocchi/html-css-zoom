@@ -113,7 +113,7 @@ footer i {
     position: relative;
     bottom: 20px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
