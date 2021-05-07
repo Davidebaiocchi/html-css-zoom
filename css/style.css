@@ -1,8 +1,29 @@
+/* COMMONS COMMONS COMMONS COMMONS COMMONS COMMONS COMMONS*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: black;
+}
+
+i {
+    color: white;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+
+header div {
+    background-color: rgba(128, 128, 128, 0.616);
+    margin: 0 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 20px;
 }
